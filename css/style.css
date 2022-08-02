@@ -1,0 +1,289 @@
+body {
+  font-family: 'lato', sans-serif;
+}
+
+.mainPage {
+  padding: 10px 12px;
+}
+
+.logLine {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+nav img {
+  width: 80px;
+}
+
+.prog li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  border-width: 2px;
+  border-color: transparent;
+  background-color: #ffffff26;
+  padding: 0.5rem;
+}
+
+nav.active li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.prog li:hover {
+  transform: scale(1.02);
+  border: 1px solid #fff;
+}
+
+.prog img {
+  width: 3rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+nav.active {
+  position: fixed;
+  height: inherit;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  transition: all 100ms ease-in-out;
+}
+
+nav.active img {
+  margin: 12px 18px;
+  opacity: 1;
+}
+
+nav.active .nav {
+  padding-left: 30px;
+}
+
+nav.active li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+nav.active li:nth-child(1) a {
+  color: #ec5242;
+}
+
+nav.active li:nth-child(6) {
+  margin-top: 30px;
+}
+
+nav.active li:nth-child(6) a {
+  color: #ec5242;
+  border: 5px solid #ec5242;
+  padding: 10px;
+}
+
+.menuIcon {
+  display: block;
+  margin-right: 90%;
+  margin-top: 3%;
+}
+
+.ban {
+  display: block;
+  width: 25px;
+  height: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+}
+
+.menuIcon.active .ban:nth-child(2) {
+  opacity: 0;
+}
+
+.menuIcon.active .ban:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.menuIcon.active .ban:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.homeInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#hello {
+  margin-bottom: 5px;
+  margin-top: 50px;
+  color: #ec5242;
+}
+
+#year {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #ec5242;
+  margin-bottom: 10px;
+}
+
+#det {
+  display: block;
+  border: 2px solid #fff;
+  padding: 12px;
+  background-color: #f2f2f2;
+  color: #535353;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+#time {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: 800;
+  color: #535353;
+}
+
+#avenue {
+  color: #535353;
+  margin-top: 10px;
+}
+
+.mainProgram {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  background-color: #272a31;
+}
+
+#mainPro {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.mainProgram span {
+  border: 1px solid #ec5242;
+  width: 30px;
+  display: table;
+  margin: 0 auto;
+}
+
+.prog {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-left: 0;
+}
+
+.prog h4 {
+  color: #ec5242;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.prog p {
+  width: 70%;
+  margin-left: auto;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+#join {
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+  border-width: 2px;
+  border-color: transparent;
+  background-color: #ec5242;
+  padding: 20px 30px;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#join:hover {
+  transform: scale(1.03);
+  border: 1px solid #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .menuIcon {
+    display: none;
+  }
+
+  .logLine {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 12%;
+    font-size: 10px;
+  }
+
+  .logLine li.icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .logLine img:hover {
+    transform: scale(1.2);
+  }
+
+  .logLine li.a:hover {
+    transform: scale(2);
+  }
+
+  .logLine li {
+    display: inline;
+    padding: 0 10px;
+  }
+
+  .logLine li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 12%;
+    font-size: 12px;
+  }
+
+  .nav li {
+    display: inline;
+    padding: 5px 15px;
+    margin-left: 15px;
+  }
+
+  .nav li a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .nav li:nth-child(1) a {
+    color: #ec5242;
+  }
+
+  .nav li:nth-child(6) a {
+    color: #ec5242;
+    border: 5px solid #ec5242;
+    padding: 10px;
+    margin-left: 30px;
+  }
+}
