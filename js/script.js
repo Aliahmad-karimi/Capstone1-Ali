@@ -53,42 +53,71 @@ mainProgramData.forEach((ele) => {
   [mainPimg, mainPh4, mainPp].forEach((child) => mainPli.appendChild(child));
   mainP.append(mainPli);
 });
-// // speakers session
-// const speakersData = [
-//     {
-//       img: 'images/ali.png',
-//       name: 'Anthony Drawon',
-//       degree: 'Degree on UI & UX design',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//     {
-//       img: 'images/ali1.png',
-//       name: 'Wanda Brown',
-//       degree: 'Problem solving expert',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//     {
-//       img: 'images/ali2.png',
-//       name: 'Peter Vesk',
-//       degree: 'Opertaing system Developer',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//     {
-//       img: 'images/ali3.png',
-//       name: 'Conowatchy Mora',
-//       degree: 'Software Engineer',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//     {
-//       img: 'images/ali4.png',
-//       name: 'Nataly Flower',
-//       degree: 'Photographer',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//     {
-//       img: 'images/ali5.png',
-//       name: 'Solowa Delay',
-//       degree: 'Team manager',
-//       text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
-//     },
-//   ];
+// speakers session
+const speakersData = [
+  {
+    img: 'images/ali.png',
+    name: 'Ali Ahmad',
+    degree: 'Degree on UI & UX design',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+  {
+    img: 'images/ali6.png',
+    name: 'Karimi',
+    degree: 'Problem solving expert',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+  {
+    img: 'images/ali2.png',
+    name: 'Ali',
+    degree: 'Opertaing system Developer',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+  {
+    img: 'images/ali3.png',
+    name: 'Aliahmad',
+    degree: 'Software Engineer',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+  {
+    img: 'images/ali4.png',
+    name: 'Ali Karimi',
+    degree: 'Photographer',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+  {
+    img: 'images/ali5.png',
+    name: 'Karimi Ali',
+    degree: 'Team manager',
+    text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
+  },
+];
+
+const speakers = document.querySelector('.speakers');
+speakers.innerHTML = speakersData
+  .map(
+    (ele) => `<li>
+       <div class="speaker-img">
+         <img src="images/Hash.avif" alt="hash" />
+         <img src=${ele.img} alt=${ele.name} />
+       </div>
+       <div class="speaker-details">
+         <h4>${ele.name}</h4>
+         <span>${ele.degree}</span>
+         <span class="block w-8 m-1 h-[1px] bg-orange-500"></span>
+         <p>${ele.text}</p>
+        </div>
+      </li>`,
+  )
+  .join('');
+
+const mobSpeakers = document.querySelectorAll('#speakers > li:nth-child(n+3)');
+const mobButton = document.querySelector('#sec3 > a');
+mobSpeakers.forEach((ele) => ele.classList.toggle('speakers-hide'));
+
+mobButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  mobSpeakers.forEach((ele) => ele.classList.toggle('speakers-hide'));
+  mobButton.children[0].innerHTML = mobButton.children[0].innerHTML === 'See More' ? 'Show Less' : 'See More';
+  mobButton.children[1].classList.toggle('rotate-180');
+});

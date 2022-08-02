@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'lato', sans-serif;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('../images/mobile_index_bg.png');
+  background-repeat: no-repeat;
 }
 
 .mainPage {
@@ -173,6 +183,7 @@ nav.active li:nth-child(6) a {
 
 .mainProgram span {
   border: 1px solid #ec5242;
+  background-color: #ec5242;
   width: 30px;
   display: table;
   margin: 0 auto;
@@ -218,6 +229,19 @@ nav.active li:nth-child(6) a {
 #join:hover {
   transform: scale(1.03);
   border: 1px solid #fff;
+}
+
+#speak {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speaker span {
+  border: 1px solid #ec5242;
+  width: 30px;
+  background-color: #ec5242;
+  display: table;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
