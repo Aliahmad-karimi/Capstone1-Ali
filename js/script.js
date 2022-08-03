@@ -57,7 +57,7 @@ mainProgramData.forEach((ele) => {
 // SList session
 const speakersData = [
   {
-    img: '../images/ali.png',
+    img: 'images/ali.png',
     name: 'Ali Ahmad',
     degree: 'Degree on UI & UX design',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
