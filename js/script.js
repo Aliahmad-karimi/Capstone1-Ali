@@ -63,31 +63,31 @@ const speakersData = [
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali6.png',
+    img: 'images/ali6.png',
     name: 'Karimi',
     degree: 'Problem solving expert',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali2.png',
+    img: 'images/ali2.png',
     name: 'Ali',
     degree: 'Opertaing system Developer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali7.png',
+    img: 'images/ali7.png',
     name: 'Aliahmad',
     degree: 'Software Engineer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali4.png',
+    img: 'images/ali4.png',
     name: 'Ali Karimi',
     degree: 'Photographer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali5.png',
+    img: 'images/ali5.png',
     name: 'Karimi Ali',
     degree: 'Team manager',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
@@ -115,23 +115,23 @@ speaker.innerHTML = speakersData
 const partner = document.querySelector('.partner > ul');
 const partnerList = [
   {
-    img: '../images/ar.png',
+    img: 'images/ar.png',
     name: 'part1',
   },
   {
-    img: '../images/ar1.png',
+    img: 'images/ar1.png',
     name: 'part2',
   },
   {
-    img: '../images/ar2.png',
+    img: 'images/ar2.png',
     name: 'part3',
   },
   {
-    img: '../images/ar3.png',
+    img: 'images/ar3.png',
     name: 'part4',
   },
   {
-    img: '../images/ar4.png',
+    img: 'images/ar4.png',
     name: 'part5',
   },
 ];
