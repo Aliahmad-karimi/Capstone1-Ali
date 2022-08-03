@@ -111,9 +111,6 @@ speaker.innerHTML = speakersData
   )
   .join('');
 
-const mobileSpeaker = document.querySelectorAll('#speakerList > li:nth-child(n+3)');
-const mobileBtn = document.querySelector('.speaker > a');
-
 // partner section
 const partner = document.querySelector('.partner > ul');
 const partnerList = [
@@ -137,7 +134,7 @@ const partnerList = [
     img: '../images/ar4.png',
     name: 'part5',
   },
-]
+];
 
 partnerList.forEach((ele) => {
   const partli = document.createElement('li');
