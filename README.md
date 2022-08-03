@@ -13,7 +13,7 @@ Showing to the world my abilities inside this webpage.
 
 ## Our WEbsite on Githup Host
 
-[clickhere](https://aliahmad-karimi.github.io/Capstone1-Ali.github.io/)
+[clickhere](https://aliahmad-karimi.github.io/Capstone1-Ali/)
 
 ## Getting Started
 
