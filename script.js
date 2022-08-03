@@ -119,19 +119,19 @@ const partnerList = [
     name: 'part1',
   },
   {
-    img: 'images/ar1.png',
+    img: 'images/ar_1.png',
     name: 'part2',
   },
   {
-    img: 'images/ar2.png',
+    img: 'images/ar_2.png',
     name: 'part3',
   },
   {
-    img: 'images/ar3.png',
+    img: 'images/ar_3.png',
     name: 'part4',
   },
   {
-    img: 'images/ar4.png',
+    img: 'images/ar_4.png',
     name: 'part5',
   },
 ];
