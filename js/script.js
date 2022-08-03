@@ -115,23 +115,23 @@ speaker.innerHTML = speakersData
 const partner = document.querySelector('.partner > ul');
 const partnerList = [
   {
-    img: 'images/ar.png',
+    img: '/images/ar.png',
     name: 'part1',
   },
   {
-    img: 'images/ar1.png',
+    img: '/images/ar1.png',
     name: 'part2',
   },
   {
-    img: 'images/ar2.png',
+    img: '/images/ar2.png',
     name: 'part3',
   },
   {
-    img: 'images/ar3.png',
+    img: '/images/ar3.png',
     name: 'part4',
   },
   {
-    img: 'images/ar4.png',
+    img: '/images/ar4.png',
     name: 'part5',
   },
 ];
