@@ -2,6 +2,16 @@
   margin: 0;
 }
 
+body {
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  background-image: url('../images/mobile_index_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .span {
   background-color: #ec5242;
   width: 30px;
@@ -16,16 +26,6 @@
   display: table;
   margin-bottom: 10px;
   border: 1px solid #ec5242;
-}
-
-body {
-  font-family: 'lato', sans-serif;
-  margin: 0;
-  background-image: url('../images/mobile_index_bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 .mainPage {
@@ -372,11 +372,13 @@ footer {
   background-color: #fff;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .center h4 {
   font-size: 20px;
   font-weight: 550;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .center p {
   font-size: 15px;
   text-align: center;
@@ -400,11 +402,13 @@ footer {
   border-top: 1px  #535353;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .bottom h4 {
   font-size: 20px;
   font-weight: 550;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .bottom p {
   font-size: 15px;
   text-align: center;
@@ -417,9 +421,9 @@ footer {
   justify-content: space-evenly;
   position: relative;
   text-align: center;
-  color: #fff;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .pics img {
   width: 300px;
   margin-top: 30px;
@@ -708,7 +712,8 @@ footer {
     padding: 50px 18%;
     text-align: center;
     background-color: #fff;
-    border-top: 1px  #535353;
+    border-top: 1px  #000;
+    margin-bottom: 50px;
   }
 
   .bottom h4 {
@@ -724,15 +729,22 @@ footer {
 
   .parentPic {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     position: relative;
     text-align: center;
-    color: #fff;
   }
 
+  /* stylelint-disable-next-line no-descending-specificity */
   .pics img {
     width: 300px;
     margin-top: 30px;
     filter: sepia(100%) blur(4px);
+  }
+
+  .kabul,
+  .herat {
+    position: relative;
+    margin-top: -120px;
   }
 }
