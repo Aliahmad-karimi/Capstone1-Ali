@@ -112,11 +112,37 @@ speaker.innerHTML = speakersData
 
 const mobileSpeaker = document.querySelectorAll('#speakerList > li:nth-child(n+3)');
 const mobileBtn = document.querySelector('.speaker > a');
-mobileBtn.forEach((ele) => ele.classList.toggle('speakers-hide'));
 
-mobileBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  mobileSpeaker.forEach((ele) => ele.classList.toggle('speakers-hide'));
-  mobileBtn.children[0].innerHTML = mobileBtn.children[0].innerHTML === 'See More' ? 'Show Less' : 'See More';
-  mobileBtn.children[1].classList.toggle('rotate-180');
-});
+// partner section
+const partner = document.querySelector('.partner > ul');
+const partnerList = [
+  {
+    img: '../images/ar.png',
+    name: 'part1',
+  },
+  {
+    img: '../images/ar1.png',
+    name: 'part2',
+  },
+  {
+    img: '../images/ar2.png',
+    name: 'part3',
+  },
+  {
+    img: '../images/ar3.png',
+    name: 'part4',
+  },
+  {
+    img: '../images/ar4.png',
+    name: 'part5',
+  },
+]
+
+partnerList.forEach((ele) => {
+  const partli = document.createElement('li');
+  const partimg = document.createElement('img');
+  partimg.src = ele.img;
+  partimg.alt = ele.name;
+  partli.appendChild(partimg);
+  partner.append(partli);
+})
