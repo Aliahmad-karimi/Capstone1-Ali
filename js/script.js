@@ -104,6 +104,7 @@ speaker.innerHTML = speakersData
        <div class="speaker-details">
          <h4>${ele.name}</h4>
          <h5>${ele.degree}</h5>
+         <span class="span1"></span>
          <p>${ele.text}</p>
         </div>
       </li>`,
@@ -145,4 +146,4 @@ partnerList.forEach((ele) => {
   partimg.alt = ele.name;
   partli.appendChild(partimg);
   partner.append(partli);
-})
+});
