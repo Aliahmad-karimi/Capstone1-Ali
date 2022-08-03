@@ -57,37 +57,37 @@ mainProgramData.forEach((ele) => {
 // SList session
 const speakersData = [
   {
-    img: '../images/ali.png',
+    img: '../images/Ali.png',
     name: 'Ali Ahmad',
     degree: 'Degree on UI & UX design',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali6.png',
+    img: '../images/Ali6.png',
     name: 'Karimi',
     degree: 'Problem solving expert',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali2.png',
+    img: '../images/Ali2.png',
     name: 'Ali',
     degree: 'Opertaing system Developer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali7.png',
+    img: '../images/Ali7.png',
     name: 'Aliahmad',
     degree: 'Software Engineer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali4.png',
+    img: '../images/Ali4.png',
     name: 'Ali Karimi',
     degree: 'Photographer',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
   },
   {
-    img: '../images/ali5.png',
+    img: '../images/Ali5.png',
     name: 'Karimi Ali',
     degree: 'Team manager',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo ad voluptas',
