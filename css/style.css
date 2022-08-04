@@ -44,6 +44,14 @@ nav img {
   width: 80px;
 }
 
+.top span {
+  background-color: #ec5242;
+  width: 30px;
+  display: table;
+  margin: 10px auto 50px auto;
+  border: 0.5px #ec5242;
+}
+
 .top a {
   color: #000;
   margin-top: 5px;
@@ -69,6 +77,23 @@ nav.active li {
 
 .prog li:hover {
   border: 1px solid #fff;
+}
+
+footer img {
+  width: 150px;
+  margin-right: 50px;
+}
+
+footer {
+  display: flex;
+  padding: 10px 20%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer h5 {
+  font-size: 10px;
+  font-weight: 200;
 }
 
 .prog img {
@@ -109,10 +134,11 @@ nav.active {
 .center h4 {
   font-size: 20px;
   font-weight: 550;
+  text-align: center;
 }
 
 .center p {
-  font-size: 15px;
+  font-size: 10px;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -141,11 +167,11 @@ nav.active li:nth-child(1) a {
   color: #ec5242;
 }
 
-nav.active li:nth-child(6) {
+nav.active li:nth-child(7) {
   margin-top: 30px;
 }
 
-nav.active li:nth-child(6) a {
+nav.active li:nth-child(7) a {
   color: #ec5242;
   border: 5px solid #ec5242;
   padding: 10px;
@@ -235,6 +261,14 @@ nav.active li:nth-child(6) a {
   padding: 15px 20px;
   background-color: #272a31;
   background-image: url('../images/pattern.png');
+}
+
+.mainProgram span {
+  background-color: #ec5242;
+  width: 30px;
+  display: table;
+  margin: 10px auto 50px auto;
+  border: 0.5px #ec5242;
 }
 
 #mainPro {
@@ -367,7 +401,7 @@ nav.active li:nth-child(6) a {
 .partner {
   background-color: #272a31;
   padding: 10px;
-  opacity: 0;
+  display: none;
 }
 
 #part {
@@ -375,10 +409,6 @@ nav.active li:nth-child(6) a {
   color: rgba(255, 255, 255, 0.452);
   margin-top: 30px;
   font-weight: 100;
-}
-
-footer {
-  display: none;
 }
 
 .top {
@@ -480,13 +510,13 @@ footer {
   }
 
   .pics img {
-    width: 300px;
+    width: 400px;
     margin-top: 30px;
     filter: sepia(100%) blur(4px);
   }
 
   .center img {
-    width: 200px;
+    width: 300px;
     padding: 5px 50px;
     border: 0.5px solid #535353;
     box-sizing: border-box;
@@ -498,6 +528,10 @@ footer {
 
   .logLine img:hover {
     transform: scale(1.2);
+  }
+
+  #speakerList img {
+    width: 100px;
   }
 
   .top a {
@@ -529,8 +563,8 @@ footer {
     background-color: #fff;
   }
 
-  nav #logo {
-    width: 5px;
+  #logo {
+    width: 20px;
   }
 
   .nav li {
@@ -548,7 +582,7 @@ footer {
     color: #ec5242;
   }
 
-  .nav li:nth-child(6) a {
+  .nav li:nth-child(7) a {
     color: #ec5242;
     border: 5px solid #ec5242;
     padding: 10px;
@@ -573,6 +607,10 @@ footer {
   #det {
     font-size: 15px;
     margin-bottom: 20px;
+  }
+
+  #mainPro {
+    font-size: 25px;
   }
 
   .prog {
@@ -613,12 +651,44 @@ footer {
     flex: 1 0 50%;
   }
 
+  .center h4 {
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  .center p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .bottom h4 {
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  .bottom p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #speakerList h4 {
+    font-size: 25px;
+  }
+
+  #speakerList p {
+    font-size: 15px;
+  }
+
   #see-more-hide {
     display: none;
   }
 
   .partner {
-    opacity: 1;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .partner ul {
@@ -640,20 +710,25 @@ footer {
     width: 150px;
   }
 
+  #about-foot img {
+    width: 200px;
+  }
+
   #partner img:hover {
     transform: scale(1.05);
   }
 
   footer {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 12%;
+    padding: 10px 20%;
     align-items: center;
+    justify-content: flex-start;
   }
 
   footer h5 {
     font-size: 10px;
     font-weight: 200;
+    margin-left: 200px;
   }
 
   #about-foot {
@@ -661,6 +736,10 @@ footer {
     color: #fff;
     padding: 25px 12%;
     justify-content: center;
+  }
+
+  #about-foot h5 {
+    font-size: 15px;
   }
 
   #foot-img {
@@ -699,17 +778,6 @@ footer {
     background-color: #fff;
   }
 
-  .center h4 {
-    font-size: 15px;
-    font-weight: 550;
-  }
-
-  .center p {
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
   .bottom {
     display: flex;
     flex-direction: column;
@@ -718,17 +786,6 @@ footer {
     background-color: #fff;
     border-top: 1px  #000;
     margin-bottom: 50px;
-  }
-
-  .bottom h4 {
-    font-size: 20px;
-    font-weight: 550;
-  }
-
-  .bottom p {
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 25px;
   }
 
   .parentPic {
@@ -742,6 +799,6 @@ footer {
   .kabul,
   .herat {
     position: relative;
-    margin-top: -120px;
+    margin-top: -150px;
   }
 }
