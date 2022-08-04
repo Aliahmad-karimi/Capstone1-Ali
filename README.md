@@ -13,7 +13,11 @@ Showing to the world my abilities inside this webpage.
 
 ## Our WEbsite on Githup Host
 
-[clickhere](https://aliahmad-karimi.github.io/Capstone1-Ali.github.io/)
+[clickhere](https://aliahmad-karimi.github.io/Capstone1-Ali/)
+
+## My Video about the webpage is availible in loom in the link below
+
+[clickhere](https://www.loom.com/share/4729deb2eb9e41a98654a296d1e54b8a)
 
 ## Getting Started
 
