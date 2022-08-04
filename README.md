@@ -37,7 +37,7 @@ open in vs code:
 
 ## Authors
 
-Original design idea by ** Cindy Shin in Behance.**
+Original design idea by **Cindy Shin in Behance.**
 
 👤 **Ali Ahmad Karimi**
 
