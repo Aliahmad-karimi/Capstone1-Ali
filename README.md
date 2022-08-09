@@ -25,7 +25,7 @@ open in vs code:
 
 ## Our WEbsite on Githup Host
 
-[clickhere]https://aliahmad-karimi.github.io/Capstone1-Ali/)
+[click-here](https://aliahmad-karimi.github.io/Capstone1-Ali/)
 
 ## My Video about the webpage is availible in loom in the link below
 
